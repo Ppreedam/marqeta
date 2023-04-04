@@ -55,7 +55,18 @@ const Navbar = () => {
       <div class="navbar">
 
         <div class="dropdown">
-          <button class="dropbtn">Marqeta</button>
+          <button class="dropbtn"></button>
+          <div class="dropdown-content">
+
+
+
+          </div>
+
+        </div>
+
+
+        <div class="dropdown">
+          <button class="dropbtn"><img style={{ height: "50px" }} src="https://mms.businesswire.com/media/20191028005216/en/752483/23/Marqet_Primary_Logo_LRG_%281%29.jpg" alt="" /></button>
           <div class="dropdown-content">
 
           </div>
@@ -63,7 +74,7 @@ const Navbar = () => {
         </div>
 
         <div class="dropdown">
-          <button class="dropbtn">Plateform</button>
+          <button class="dropbtn"><p>Plateform</p></button>
           <div class="dropdown-content">
             <div>
               <a href="">Clearance:Get Inspired</a>
@@ -118,7 +129,7 @@ const Navbar = () => {
         </div>
 
         <div class="dropdown">
-          <button class="dropbtn">Solution</button>
+          <button class="dropbtn"><p>Solution</p></button>
           <div class="dropdown-content">
             <div>
               <h4><a href="products/mens.html">Women:Get Inspired</a></h4>
@@ -182,7 +193,7 @@ const Navbar = () => {
 
 
         <div class="dropdown">
-          <button class="dropbtn">Developer</button>
+          <button class="dropbtn"><p>Developer</p></button>
           <div class="dropdown-content">
             <div>
               <h4><a href="products/mens.html">Men:Get Inspired</a></h4>
@@ -228,28 +239,15 @@ const Navbar = () => {
               <a href="">Baby Clothing & Shoes</a>
               <a href=""><h4>Activewea</h4></a>
             </div>
-            <div>
-              <a href="products/mens.html"><h4>Home</h4></a>
-              <a href="products/mens.html">Art & Wall Decor</a>
-              <a href="">Bath</a>
-              <a href="">Bedding</a>
-              <a href="">Decor</a>
-              <a href="">Electronics & Tech Accessories</a>
-              <a href="">Kitchen & Tabletop</a>
-              <a href="">Storage & Cleaning</a>
-            </div>
-            <div>
-              <a href="products/mens.html"><h4>Beauty</h4></a>
-              <a href="products/mens.html">Makeup</a>
-              <a href="products/mens.html">Skin Care</a>
-            </div>
+
+
           </div>
         </div>
 
 
 
         <div class="dropdown">
-          <button class="dropbtn">Resource</button>
+          <button class="dropbtn"><p>Resource</p></button>
           <div class="dropdown-content">
 
           </div>
@@ -259,7 +257,7 @@ const Navbar = () => {
 
 
         <div class="dropdown">
-          <button class="dropbtn">Company</button>
+          <button class="dropbtn"><p>Company</p></button>
           <div class="dropdown-content">
 
           </div>
@@ -284,7 +282,7 @@ const Navbar = () => {
 
 
         <div class="dropdown">
-          <button class="dropbtn">SignIn</button>
+          <button class="dropbtn"><p>SignIn</p></button>
           <div class="dropdown-content">
 
 
@@ -297,9 +295,20 @@ const Navbar = () => {
 
 
         <div class="dropdown">
-          <button class="dropbtn">Contact Us</button>
+          <button class="dropbtn"><p style={{ backgroundColor: "#1cc283", height: "30px", textAlign: "center", borderRadius: "20px", width: "150px" }}>Contact Us</p></button>
 
         </div>
+
+        <div class="dropdown">
+          <button class="dropbtn"></button>
+          <div class="dropdown-content">
+
+
+
+          </div>
+
+        </div>
+
 
       </div>
     </>
