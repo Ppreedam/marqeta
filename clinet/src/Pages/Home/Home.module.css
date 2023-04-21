@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    min-height: 50vh;
+    /* height: max-content; */
+    width: 100%;
+    border: 1px solid red;
+    background-color: blue;
+}
+.custom-shape-divider-top-1681999912 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1681999912 svg {
+    position: relative;
+    display: block;
+    width: calc(141% + 1.3px);
+    height: 186px;
+}
+
+.custom-shape-divider-top-1681999912 .shape-fill {
+    fill: blue;
+}
