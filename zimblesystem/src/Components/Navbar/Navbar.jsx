@@ -46,6 +46,14 @@ function LandingPageNavbar() {
         {/* 3rd social media links */}
         <div className={style.social_media}>
           {/* hemberger menu start */}
+          <div className={style.social_media_desktop}>
+              <Link to="/login">
+                <button className={style.login}>LogIn</button>
+              </Link>
+              <Link to="/contactus">
+                <button className={style.contactus}>Contact Us</button>
+              </Link>            
+          </div>
           <div className={style.hamburger_menu}>
             <a onClick={() => setShowMediaIcon(!showMediaIcon)}>
               <GiHamburgerMenu />

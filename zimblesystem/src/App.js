@@ -6,6 +6,8 @@ import Developers from "./Pages/Developers/Developers";
 import Resources from "./Pages/Resources/Resources";
 import Company from "./Pages/Company/Company";
 import Home from "./Pages/Home/Home";
+import Login from "./Pages/Login/Login";
+import ContacctUs from "./Pages/ContactUs/ContactUs";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
       <Route exact path="/developers" element={<Developers />} />
       <Route exact path="/resources" element={<Resources />} />
       <Route exact path="/company" element={<Company />} />
+      <Route exact path="/login" element={<Login />} />
+      <Route exact path="/contactus" element={<ContacctUs />} />
     </Routes>
   );
 };
