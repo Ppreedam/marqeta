@@ -1,31 +1,55 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.container{
-    position: relative;
-    min-height: 50vh;
-    /* height: max-content; */
-    width: 100%;
-    border: 1px solid red;
-    background-color: blue;
+.container {
+  position: relative;
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
-.custom-shape-divider-top-1681999912 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+.bannerContent {
+  padding: 150px 0 50px 0;
+  height: 100%;
+  width: 50%;
 }
-
-.custom-shape-divider-top-1681999912 svg {
-    position: relative;
-    display: block;
-    width: calc(141% + 1.3px);
-    height: 186px;
+.header1 {
+  color: #165c8e;
+  width: 50%;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
 }
-
-.custom-shape-divider-top-1681999912 .shape-fill {
-    fill: blue;
+.header2 {
+  margin-top: 10px;
+  color: #e0d567;
+  width: 50%;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+}
+.header3 {
+  color: #4a80a1;
+  margin-top: 10px;
+  width: 80%;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.letstalk {
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 100px 10px 100px;
+  cursor: pointer;
+}
+.bannerImage {
+  padding: 120px 0 0 0;
+}
+.cardImage {
+  height: 400px;
+  width: 400px;
+  transform: scalex(-1);
+  margin-left: -300px;
 }

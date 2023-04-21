@@ -47,9 +47,9 @@ function LandingPageNavbar() {
         <div className={style.social_media}>
           {/* hemberger menu start */}
           <div className={style.social_media_desktop}>
-              <Link to="/login">
+              {/* <Link to="/login">
                 <button className={style.login}>LogIn</button>
-              </Link>
+              </Link> */}
               <Link to="/contactus">
                 <button className={style.contactus}>Contact Us</button>
               </Link>            

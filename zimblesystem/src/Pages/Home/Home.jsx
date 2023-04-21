@@ -1,28 +1,23 @@
 import React from "react";
 import style from "./Home.module.css";
 import Navbar from "../../Components/Navbar/Navbar";
+import card from "./card.png"
 
 const Home = () => {
   return (
     <div>
       <Navbar />
       <div className={style.container}>
-        <h1>
-          Modern card issuing that empowers innovators to change the world
-        </h1>
-        <button>Let's talk</button>
-        <div className="custom-shape-divider-top-1681999912">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M1200 0L0 0 598.97 114.72 1200 0z"
-              className="shape-fill"
-            ></path>
-          </svg>
+        <div className={style.bannerContent}>
+          <h1 className={style.header1}>Cloud Native & Complete Card</h1>
+          <h2 className={style.header2}>Solutions</h2>
+          <h3 className={style.header3}>
+            Instantly issue & process card payments with our open API platform
+          </h3>
+          <button className={style.letstalk}>Let's talk</button>
+        </div>
+        <div className={style.bannerImage}>
+          <img className={style.cardImage} src={card} alt="card" />
         </div>
       </div>
     </div>
