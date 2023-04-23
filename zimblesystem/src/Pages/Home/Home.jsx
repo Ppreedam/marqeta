@@ -1,7 +1,8 @@
 import React from "react";
 import style from "./Home.module.css";
 import Navbar from "../../Components/Navbar/Navbar";
-import card from "./card.png"
+import card from "./card.png";
+import { Parallax } from "react-scroll-parallax";
 
 const Home = () => {
   return (
@@ -18,6 +19,14 @@ const Home = () => {
         </div>
         <div className={style.bannerImage}>
           <img className={style.cardImage} src={card} alt="card" />
+        </div>
+      </div>
+
+      <div className={style.box}>
+        <div className={style.innerBox} scrollAxis="vertical">
+          <Parallax className="Parallax-module__parallax--skrA3" scale={[0, 1]}>
+            {/* <Element name="A" /> */}
+          </Parallax>
         </div>
       </div>
     </div>
