@@ -1,13 +1,11 @@
 import React from "react";
 import style from "./Home.module.css";
-import Navbar from "../../Components/Navbar/Navbar";
 import card from "./card.png";
 import { Parallax } from "react-scroll-parallax";
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <div className={style.container}>
         <div className={style.bannerContent}>
           <h1 className={style.header1}>Cloud Native & Complete Card</h1>
