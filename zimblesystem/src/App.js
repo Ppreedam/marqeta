@@ -8,9 +8,12 @@ import Company from "./Pages/Company/Company";
 import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import ContacctUs from "./Pages/ContactUs/ContactUs";
+import LandingPageNavbar from "./Components/Navbar/Navbar";
 
 const App = () => {
   return (
+    <>
+    <LandingPageNavbar/>
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route exact path="/platform" element={<Platform />} />
@@ -21,6 +24,7 @@ const App = () => {
       <Route exact path="/login" element={<Login />} />
       <Route exact path="/contactus" element={<ContacctUs />} />
     </Routes>
+    </>
   );
 };
 
