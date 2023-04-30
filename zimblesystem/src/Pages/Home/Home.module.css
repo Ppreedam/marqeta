@@ -50,8 +50,8 @@
 .cardImage {
   height: 400px;
   width: 400px;
-  transform: scalex(-1);
-  margin-left: -300px;
+  /* transform: scalex(-1);
+  margin-left: -300px; */
 }
 .box{
   height: 100vh;

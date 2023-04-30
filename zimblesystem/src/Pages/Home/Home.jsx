@@ -18,15 +18,22 @@ const Home = () => {
           <button className={style.letstalk}>Let's talk</button>
         </div>
         <div className={style.bannerImage}>
-          <img className={style.cardImage} src={card} alt="card" />
+        <Parallax
+    x={[400, 0]}
+    y={[ 1000,0]}
+scale={[0.75, 2]}
+rotate={[60, -250]}
+easing="easeInQuad"
+>
+<img className={style.cardImage} src={card} alt="card" />
+</Parallax>
+        
         </div>
       </div>
 
       <div className={style.box}>
         <div className={style.innerBox} scrollAxis="vertical">
-          <Parallax className="Parallax-module__parallax--skrA3" scale={[0, 1]}>
-            {/* <Element name="A" /> */}
-          </Parallax>
+
         </div>
       </div>
     </div>
