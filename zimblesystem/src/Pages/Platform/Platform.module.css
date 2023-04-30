@@ -1,0 +1,16 @@
+.container{
+    height: max-content;
+    width: 100%;
+    /* border: 10px solid red; */
+    z-index: 9999;
+}
+.banner{
+    height:500px;
+    width: 100%;
+    /* margin-top: 200px; */
+    border: 10px solid red;
+    z-index: 99999;
+}
+.payment{
+    font-size: 100px;
+}

@@ -24,7 +24,7 @@ li {
 /* navbar style start  */
 
 .main_nav {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   position: fixed;
   z-index: 9999;
   color: #a1789d;
