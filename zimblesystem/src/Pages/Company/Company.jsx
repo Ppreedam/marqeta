@@ -4,7 +4,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 const Company = () => {
   return (
     <div>
-    <Navbar/>
+    
     Company</div>
   )
 }
