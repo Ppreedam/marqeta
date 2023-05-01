@@ -4,15 +4,18 @@
 }
 .container {
   position: relative;
+  margin: auto;
   height: 200vh;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  /* border: 1px solid red; */
 }
 .bannerContent {
   padding: 150px 0 50px 0;
   height: 100%;
   width: 50%;
+  margin-left: -400px;
 }
 .header1 {
   color: #165c8e;
@@ -46,12 +49,17 @@
 }
 .bannerImage {
   padding: 120px 0 0 0;
+  position: fixed;
+  height: 400px;
+  width: 400px;
+  margin-left: 700px;
 }
 .cardImage {
   height: 400px;
   width: 400px;
-  /* transform: scalex(-1);
-  margin-left: -300px; */
+  transform: scalex(-1);
+  /* margin-left: -3010px; */
+  /* position: fixed; */
 }
 .box{
   height: 100vh;

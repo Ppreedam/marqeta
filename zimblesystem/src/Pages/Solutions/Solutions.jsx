@@ -1,8 +1,9 @@
 import React from "react";
+import style from "./Solutions.module.css"
 
 const Solutions = () => {
   return (
-    <div>
+    <div className={style.solutionContainer}>
       
       Solutions
     </div>

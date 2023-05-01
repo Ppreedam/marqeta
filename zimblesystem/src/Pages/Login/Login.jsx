@@ -1,13 +1,7 @@
-import React from 'react'
-import style from "./Login.module.css"
-import Navbar from '../../Components/Navbar/Navbar'
+import React from "react";
 
 const Login = () => {
-  return (
-    <div>
-    <Navbar />
-    Login</div>
-  )
-}
+  return <div>Login</div>;
+};
 
-export default Login
+export default Login;

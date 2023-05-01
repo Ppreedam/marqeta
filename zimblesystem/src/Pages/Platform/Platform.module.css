@@ -1,16 +1,102 @@
-.container{
-    height: max-content;
-    width: 100%;
-    /* border: 10px solid red; */
-    z-index: 9999;
+* {
+  margin: 0;
+  padding: 0;
 }
-.banner{
-    height:500px;
-    width: 100%;
-    /* margin-top: 200px; */
-    border: 10px solid red;
-    z-index: 99999;
+.container {
+  position: relative;
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
-.payment{
-    font-size: 100px;
+.platformBanner {
+  margin-top: 6rem;
+  height: 400px;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  padding: 70px 200px 50px 200px;
 }
+.leftPlatformBanner {
+  width: 50%;
+  /* border: 1px solid teal; */
+}
+.rightPlatformBanner {
+  width: 50%;
+  /* border: 1px solid yellow; */
+}
+.bannerHeader {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #919090;
+}
+.bannerSubHeader {
+    margin-top: 20px;
+    font-size: 50px;
+    width: 61%;
+    line-height: 70px;
+    font-weight: 500;
+    color: #151e70;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+}
+.bannerContent{
+    margin-top: 30px;
+    font-size: 19px;
+    width: 61%;
+    color: #494f8f;
+}
+.requestDemo {
+    --c: #1095c1; /* the color */
+    --b: .1em;    /* border length*/
+    --d: 10px;    /* the cube depth */
+    --h: 1em;   /* the height */
+    
+    --_s: calc(var(--d) + var(--b));
+  
+    line-height: var(--h);
+    color: #0000;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    text-shadow: 
+      0 calc(-1*var(--_t,0em)) var(--c), 
+      0 calc(var(--h) - var(--_t,0em)) #fff;
+    border: solid #0000;
+    overflow: hidden;
+    border-width: var(--b) var(--b) var(--_s) var(--_s);
+    background:
+      linear-gradient(var(--c) 0 0) 100% 100%
+       /101% var(--_p,0%) no-repeat,
+      conic-gradient(at left var(--d)  bottom var(--d),
+        #0000 90deg, rgb(255 255 255 /0.3) 0 225deg,rgb(255 255 255 /0.6) 0) border-box,
+      conic-gradient(at left var(--_s) bottom var(--_s),
+        #0000 90deg,var(--c) 0) 0 100%/calc(100% - var(--b)) calc(100% - var(--b))  border-box;
+    transform: translate(calc(var(--d)/-1),var(--d));
+    clip-path: 
+      polygon(
+       var(--d) 0%, 
+       var(--d) 0%, 
+       100% 0%, 
+       100% calc(100% - var(--d)),
+       100% calc(100% - var(--d)),
+       var(--d) calc(100% - var(--d))
+      );
+    transition: 0.5s;
+  }
+  .requestDemo:hover {
+    transform: translate(0,0);
+    clip-path: 
+      polygon(
+       0% var(--d), 
+       var(--d) 0%, 
+       100% 0%, 
+       100% calc(100% - var(--d)), 
+       calc(100% - var(--d)) 100%, 
+       0% 100%
+     );
+    --_t: var(--h);
+    --_p: 105%;
+  }

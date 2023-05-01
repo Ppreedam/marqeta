@@ -1,12 +1,7 @@
-import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar'
+import React from "react";
 
 const Company = () => {
-  return (
-    <div>
-    
-    Company</div>
-  )
-}
+  return <div>Company</div>;
+};
 
-export default Company
+export default Company;

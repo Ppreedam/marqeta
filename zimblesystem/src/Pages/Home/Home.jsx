@@ -16,24 +16,21 @@ const Home = () => {
           <button className={style.letstalk}>Let's talk</button>
         </div>
         <div className={style.bannerImage}>
-        <Parallax
-    x={[400, 0]}
-    y={[ 1000,0]}
-scale={[0.75, 2]}
-rotate={[60, -250]}
-easing="easeInQuad"
->
-<img className={style.cardImage} src={card} alt="card" />
-</Parallax>
-        
+          <Parallax
+            x={[400, 0]}
+            y={[-1000, 0]}
+            scale={[1, 0.7]}
+            rotate={[165, -360]}
+            easing="easeInQuad"
+          >
+            <img className={style.cardImage} src={card} alt="card" />
+          </Parallax>
         </div>
       </div>
 
-      <div className={style.box}>
-        <div className={style.innerBox} scrollAxis="vertical">
-
-        </div>
-      </div>
+      {/* <div className={style.box}>
+        <div className={style.innerBox} scrollAxis="vertical"></div>
+      </div> */}
     </div>
   );
 };
