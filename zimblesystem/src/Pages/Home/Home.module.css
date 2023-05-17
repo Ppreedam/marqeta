@@ -2,10 +2,13 @@
   margin: 0;
   padding: 0;
 }
+.mainBox{
+  /* position: absolute; */
+}
 .container {
-  position: relative;
+  /* position: relative; */
   margin: auto;
-  height: 200vh;
+  height: 70vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -48,15 +51,16 @@
   cursor: pointer;
 }
 .bannerImage {
-  padding: 120px 0 0 0;
+  padding: 70px 0 0 0;
   position: fixed;
   height: 400px;
   width: 400px;
   margin-left: 700px;
+  z-index: 1;
 }
 .cardImage {
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   transform: scalex(-1);
   /* margin-left: -3010px; */
   /* position: fixed; */
@@ -73,4 +77,11 @@
   background-color: teal;
   border: 1px solid red;
   border-radius: 5px;
+}
+.missionStatement{
+  position: relative;
+  top: 00px;
+  height: 500px;
+  width: 100%;
+  /* border: 1px solid teal; */
 }
