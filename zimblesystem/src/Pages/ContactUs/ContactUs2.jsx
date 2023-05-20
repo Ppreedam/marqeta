@@ -19,26 +19,26 @@ const ContactUs2 = () => {
   const form = useRef();
 
   /* This funcion is used to send the mail with the help of EmailJs */
-  const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        // "service_pqnlkqn",
-        // "template_i7d9vvq",
-        form.current,
-        // "g88TS7f-p9tbpIj0o"
-      )
-      .then(
-        (result) => {
-          // console.log(result.text);
-          // console.log("message sent");
-          alert("Message Sent")
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   emailjs
+  //     .sendForm(
+  //       // "service_pqnlkqn",
+  //       // "template_i7d9vvq",
+  //       form.current,
+  //       // "g88TS7f-p9tbpIj0o"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         // console.log(result.text);
+  //         // console.log("message sent");
+  //         alert("Message Sent")
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
   return (
     // main container of this page
     <div className={Style.ContactUs}>
@@ -147,7 +147,7 @@ const ContactUs2 = () => {
             placeholder="Please Type Your Message"
           />
           {/* button to send email */}
-          <button onClick={sendEmail} className={Style.ContactUs_submit}>
+          <button  className={Style.ContactUs_submit}>
             <FaTelegramPlane className={Style.ContactUs_submitBtn} />
             <p>Send Message</p>
           </button>

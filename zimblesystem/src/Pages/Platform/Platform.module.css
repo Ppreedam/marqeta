@@ -4,10 +4,11 @@
 }
 .container {
   position: relative;
-  height: 200vh;
+  height: 85vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
+  /* border: 1px solid red; */
 }
 .platformBanner {
   margin-top: 6rem;
@@ -99,4 +100,218 @@
      );
     --_t: var(--h);
     --_p: 105%;
+  }
+  .textcenter{
+    text-align: center;
+    color: #003088;
+    font-size: 50px;
+  }
+  .democratize_mainbox{
+    display: flex;
+    height: 680px;
+    margin-top: 40px;
+  }
+  .democratize_left_mainbox{
+    background-color: #e0ebff;
+    width: 300px;
+    
+  }
+  .democratize_left_mainbox>:nth-child(1){
+    height: 170px;
+  }
+  .democratize_left_mainbox>:nth-child(1)>p{
+    text-align: center;
+    font-size: 30px;
+    color: #003088;
+    font-weight: bold;
+    margin-top: 30%;
+  }
+  .democratize_left_mainbox>:nth-child(2){
+    height: 250px;
+    background-color: #003088;
+  }
+  .democratize_left_mainbox>:nth-child(2)>p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 30%;
+    
+  }
+  .mainline{
+    width: 200px;
+    margin-top: 21%; 
+  }
+  .mainline>p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .line{
+    background-color: #003088;
+    height: 10px;
+  }
+  .democratize_right_mainbox{
+    background-color: #e0ebff;
+    width: 1019px;
+  }
+  .democratize_right_first_mainbox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+  .democratize_right_first_mainbox>:nth-child(1){
+    background-color: #003088;
+    height: 120px;
+    width: 280px;
+  }
+  .democratize_right_first_mainbox>:nth-child(1)>p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 11%;
+  }
+  .democratize_right_first_mainbox>:nth-child(2){
+    background-color: #003088;
+    height: 120px;
+    width: 280px;
+  }
+  .democratize_right_first_mainbox>:nth-child(2)>p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 13%;
+  }
+
+  /* second box */
+  .democratize_right_second_mainbox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+  .democratize_right_second_mainbox>div{
+    background-color: #003088;
+    height: 120px;
+    width: 250px;
+  }
+  .democratize_right_second_mainbox>div>p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 13%;
+  }
+  .democratize_right_third_mainbox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+  .democratize_right_third_mainbox>div{
+    height: 50px;
+    width: 600px;
+    background-color: #003088;
+  }
+  .democratize_right_third_mainbox>div>p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2%;
+  }
+  .democratize_right_fourth_mainbox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+  .democratize_right_fourth_mainbox>div{
+    height: 100px;
+    width: 300px;
+    background-color: #003088;
+  }
+  .democratize_right_fourth_mainbox>div>p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10%;
+  }
+
+  /* card management */
+  .card_management_mainbox{
+    background-color: #003088;
+    height: 650px;
+    margin-top: 60px;
+  }
+  .card_management_mainbox>p{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 40px;
+  }
+  .card_management_secondbox{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 90px;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 45px;
+  }
+  .card_management_secondbox>div{
+    /* border: 1px solid red; */
+    /* margin: auto; */
+  }
+  .card_management_secondbox>div>div{
+    height: 100px;
+    width: 100px;
+    border: 5px solid #a9a7a7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card_management_secondbox>div>p{
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  /* forth section */
+  .iconarrow{
+    width: 100px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #000;
+    position: relative;
+    /* top: 50px; */
+  }
+  .iconarrow:after{
+    content: "";
+    display: inline-block;
+    border-radius: 4px;
+    width: 40px;
+    height: 4px;
+    background-color: #000;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -6px;
+    bottom: 13px;
+  }
+  .iconarrow:before{
+    content: "";
+    display: inline-block;
+    border-radius: 4px;
+    width: 40px;
+    height: 4px;
+    background-color: #000;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: -6px;
+    bottom: -13px;
+  }
+  .notification{
+    color: white;
+    font-size: 65px;
   }
