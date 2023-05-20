@@ -2,6 +2,7 @@ import { useState } from "react";
 import style from "./Navbar.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
+import logo from "./CloudSystem (3) (1).png"
 
 function LandingPageNavbar() {
   const [showMediaIcon, setShowMediaIcon] = useState(false);
@@ -11,11 +12,9 @@ function LandingPageNavbar() {
         {/* navbar logo part */}
         <div className={style.logo}>
           <Link to="/">
-            <h2>
-              <span>Z</span>imble
-              <span>S</span>ystem
-            </h2>
+            <img style={{height:"60px" , width:"75px", borderRadius:"5px"}} src={logo} alt="" />
           </Link>
+          
         </div>
         {/* 2nd menu part */}
         <div
