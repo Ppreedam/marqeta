@@ -315,3 +315,24 @@
     color: white;
     font-size: 65px;
   }
+/* What makes ZymbleSystem different? */
+
+  .zimblesystem_difference_box{
+    background-color: #e0ebff;
+    height: 600px;
+  }
+  .zimblesystem_difference_box>div>p:nth-child(1){
+    color: #003088;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+  }
+  .zimblesystem_difference_box>div>p:nth-child(2){
+    color: black;
+    text-align: center;
+    width: 32%;
+    margin: auto;
+    padding-top: 25px;
+    font-size: 16px;
+    /* border: 1px solid red; */
+  }

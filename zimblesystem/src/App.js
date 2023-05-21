@@ -13,6 +13,7 @@ import LandingPageNavbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 
 import Aboutus from "./Pages/AboutUS/Aboutus";
+import Product from "./Pages/Product/Product";
 
 
 const App = () => {
@@ -28,7 +29,7 @@ const App = () => {
       <Route exact path="/platform" element={<Platform />} />
       <Route exact path="/solutions" element={<Solutions />} />
       <Route exact path="/developers" element={<Developers />} />
-      <Route exact path="/resources" element={<Resources />} />
+      <Route exact path="/Products" element={<Product/>} />
       <Route exact path="/company" element={<Company />} />
       <Route exact path="/login" element={<Login />} />
       <Route exact path="/contactus" element={<ContacctUs />} />
