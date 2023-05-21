@@ -4,6 +4,7 @@ import card from "./card3.png";
 import { Parallax } from "react-scroll-parallax";
 import MissionStatement from "../../Components/MissonStatement/MissionStatement";
 
+
 const Home = () => {
   return (
     <div className={style.mainBox}>
@@ -35,6 +36,7 @@ const Home = () => {
       {/* <div className={style.box}>
         <div className={style.innerBox} scrollAxis="vertical"></div>
       </div> */}
+      
     </div>
   );
 };

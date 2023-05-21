@@ -9,6 +9,7 @@ import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import ContacctUs from "./Pages/ContactUs/ContactUs";
 import LandingPageNavbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Route exact path="/login" element={<Login />} />
       <Route exact path="/contactus" element={<ContacctUs />} />
     </Routes>
+    <Footer/>
     </>
   );
 };
