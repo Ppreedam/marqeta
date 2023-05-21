@@ -3,12 +3,13 @@
   padding: 0;
 }
 .mainBox{
+  height: max-content;
   /* position: absolute; */
 }
 .container {
   /* position: relative; */
   margin: auto;
-  height: 70vh;
+  height: max-content;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -84,4 +85,121 @@
   height: 500px;
   width: 100%;
   /* border: 1px solid teal; */
+}
+.missionStatementContainer {
+  height: max-content;
+  width: 100%;
+  /* border: 1px solid red; */
+  margin: auto;
+  padding: 30px 0 30px 0;
+}
+.MissionStatement {
+  text-align: center;
+  font-size: 50px;
+  color: #003088;
+}
+.msContent {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.missionDetails {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  height: max-content;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.box {
+  height: 320px;
+  width: 400px;
+  background-color: #003088;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.image {
+  height: 100px;
+  width: 100px;
+}
+.title {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.content {
+  padding: 20px 0 0 0;
+  margin: auto;
+  width: 90%;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.cardManagementContainer{
+  height: max-content;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.cardManagement{
+  height: max-content;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 50px; */
+  justify-content: center;
+  padding: 30px 0 30px 0;
+}
+.cardManagementOption{
+  height: 100px;
+  width: 270px;
+  background-color: #003088;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.cardManagementOption p{
+  height: max-content;
+  width: 90%;
+  font-size:25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconArrow{
+  width: 200px;
+  height: 4px;
+  background-color: #000;
+  position: relative;
+  border-radius: 4px;
+  top: 50px;
+}
+.iconArrow:after{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 4px;
+  background-color: #000;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -4px;
+  bottom: 6px;
+
+}
+.iconArrow:before{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 4px;
+  background-color: #000;
+  transform: rotate(-45deg);
+  position: absolute;
+  right: -4px;
+  bottom: -6px;
+
 }
