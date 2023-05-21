@@ -141,9 +141,9 @@ const Platform = () => {
         </div>
       </div>
       {/* fourth section */}
-      <div className={style.iconarrow}>
+      {/* <div className={style.iconarrow}>
 
-      </div>
+      </div> */}
     </div>
   );
 };

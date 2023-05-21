@@ -9,7 +9,11 @@ import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import ContacctUs from "./Pages/ContactUs/ContactUs";
 import LandingPageNavbar from "./Components/Navbar/Navbar";
+
+import Footer from "./Components/Footer/Footer";
+
 import Aboutus from "./Pages/AboutUS/Aboutus";
+
 
 const App = () => {
   return (
@@ -30,7 +34,11 @@ const App = () => {
       <Route exact path="/contactus" element={<ContacctUs />} />
       <Route exact path="/aboutus" element={<Aboutus/>}/>
     </Routes>
+
+    <Footer/>
+
     </div>
+
     </>
   );
 };
