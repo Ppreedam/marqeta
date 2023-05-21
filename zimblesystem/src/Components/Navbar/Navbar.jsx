@@ -28,17 +28,14 @@ function LandingPageNavbar() {
             <Link to="/platform">
               <li>Platform</li>
             </Link>
-            <Link to="/solutions">
-              <li>Solutions</li>
+            <Link to="/products">
+              <li>Products</li>
             </Link>
-            <Link to="/developers">
-              <li>Developers</li>
+            <Link to="/contactus">
+              <li>ContactUs</li>
             </Link>
-            <Link to="/resources">
-              <li>Resources</li>
-            </Link>
-            <Link to="/company">
-              <li>Company</li>
+            <Link to="/aboutus">
+              <li>AboutUs</li>
             </Link>
           </ul>
         </div>
