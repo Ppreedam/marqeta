@@ -10,10 +10,19 @@ import Login from "./Pages/Login/Login";
 import ContacctUs from "./Pages/ContactUs/ContactUs";
 import LandingPageNavbar from "./Components/Navbar/Navbar";
 
+import Footer from "./Components/Footer/Footer";
+
+import Aboutus from "./Pages/AboutUS/Aboutus";
+
+
 const App = () => {
   return (
     <>
+    <div>
     <LandingPageNavbar/>
+    </div>    
+
+ <div>
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route exact path="/platform" element={<Platform />} />
@@ -23,7 +32,13 @@ const App = () => {
       <Route exact path="/company" element={<Company />} />
       <Route exact path="/login" element={<Login />} />
       <Route exact path="/contactus" element={<ContacctUs />} />
+      <Route exact path="/aboutus" element={<Aboutus/>}/>
     </Routes>
+
+    <Footer/>
+
+    </div>
+
     </>
   );
 };

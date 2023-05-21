@@ -5,6 +5,7 @@ import { Parallax } from "react-scroll-parallax";
 // import MissionStatement from "../../Components/MissonStatement/MissionStatement";
 // import CardManagement from "../../Components/CardManagement/CardManagement";
 
+
 const Home = () => {
   const data = [
     {

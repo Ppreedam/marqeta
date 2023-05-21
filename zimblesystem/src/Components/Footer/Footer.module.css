@@ -1,0 +1,33 @@
+.footer_mainbox{
+    background-color: #003088;
+    /* height: 700px; */
+    margin-top: 2px;
+    
+    
+}
+.footer_mainbox1{
+     display: flex;
+    justify-content: space-around;
+}
+.footer_mainbox1>div{
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+.footer_mainbox>div>div>p{
+    
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+}
+.hr_line{
+    margin-top: 40px;
+    width: 90%;
+    margin: auto;
+}
+.footer_sencond_box{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+     /* border: 1px solid red; */
+}
