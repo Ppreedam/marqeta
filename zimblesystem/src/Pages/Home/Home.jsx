@@ -5,7 +5,6 @@ import { Parallax } from "react-scroll-parallax";
 // import MissionStatement from "../../Components/MissonStatement/MissionStatement";
 // import CardManagement from "../../Components/CardManagement/CardManagement";
 
-
 const Home = () => {
   const data = [
     {
@@ -88,7 +87,7 @@ const Home = () => {
           </h3>
           <button className={style.letstalk}>Let's talk</button>
         </div>
-        <div className={style.bannerImage}>
+        {/* <div className={style.bannerImage}>
           <Parallax
             x={[400, 0]}
             y={[-900, 0]}
@@ -99,7 +98,7 @@ const Home = () => {
           >
             <img className={style.cardImage} src={card} alt="card" />
           </Parallax>
-        </div>
+        </div> */}
       </div>
       <div className={style.missionStatementContainer}>
         <h1 className={style.MissionStatement}>Misson Statement</h1>
@@ -133,24 +132,32 @@ const Home = () => {
             <p>Virtual / Physical</p>
             <p>Card Embossing</p>
           </div>
+          <div className={style.iconArrow}></div>
+          <div className={style.iconArrow}></div>
           <div className={style.cardManagementOption}>
             <p>Start Using The</p>
             <p>Card</p>
           </div>
+          <div className={style.iconArrow}></div>
           <div className={style.cardManagementOption}>
             <p>Authorization</p>
           </div>
+          <div className={style.iconArrow}></div>
           <div className={style.cardManagementOption}>
             <p>Control, Alerts</p>
             <p>Management</p>
             <p>Clearing</p>
           </div>
+          <div className={style.iconArrow}></div>
           <div className={style.cardManagementOption}>
             <p>Clearing</p>
           </div>
+          <div className={style.iconArrow}></div>
+          <div className={style.iconArrow}></div>
           <div className={style.cardManagementOption}>
             <p>Leadgering System</p>
           </div>
+          <div className={style.iconArrow}></div>
         </div>
       </div>
     </div>
