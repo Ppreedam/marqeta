@@ -241,6 +241,7 @@ const Platform = () => {
             </div>
           </div>
         </div>
+      </div>
       <div className={style.zimblesystem_difference_box}>
           <div>
             <p>What makes ZymbleSystem different?</p>
@@ -251,7 +252,7 @@ const Platform = () => {
           </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Platform;
+export default Platform
