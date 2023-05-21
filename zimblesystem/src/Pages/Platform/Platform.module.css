@@ -466,3 +466,102 @@
 ul {
   list-style-type: circle;
 }
+  /* card management */
+  .card_management_mainbox{
+    background-color: #003088;
+    height: 650px;
+    margin-top: 60px;
+  }
+  .card_management_mainbox>p{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 40px;
+  }
+  .card_management_secondbox{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 90px;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 45px;
+  }
+  .card_management_secondbox>div{
+    /* border: 1px solid red; */
+    /* margin: auto; */
+  }
+  .card_management_secondbox>div>div{
+    height: 100px;
+    width: 100px;
+    border: 5px solid #a9a7a7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card_management_secondbox>div>p{
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  /* forth section */
+  .iconarrow{
+    width: 100px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #000;
+    position: relative;
+    /* top: 50px; */
+  }
+  .iconarrow:after{
+    content: "";
+    display: inline-block;
+    border-radius: 4px;
+    width: 40px;
+    height: 4px;
+    background-color: #000;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -6px;
+    bottom: 13px;
+  }
+  .iconarrow:before{
+    content: "";
+    display: inline-block;
+    border-radius: 4px;
+    width: 40px;
+    height: 4px;
+    background-color: #000;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: -6px;
+    bottom: -13px;
+  }
+  .notification{
+    color: white;
+    font-size: 65px;
+  }
+/* What makes ZymbleSystem different? */
+
+  .zimblesystem_difference_box{
+    background-color: #e0ebff;
+    height: 600px;
+  }
+  .zimblesystem_difference_box>div>p:nth-child(1){
+    color: #003088;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+  }
+  .zimblesystem_difference_box>div>p:nth-child(2){
+    color: black;
+    text-align: center;
+    width: 32%;
+    margin: auto;
+    padding-top: 25px;
+    font-size: 16px;
+    /* border: 1px solid red; */
+  }
+

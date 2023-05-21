@@ -13,6 +13,7 @@ import LandingPageNavbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 
 import Aboutus from "./Pages/AboutUS/Aboutus";
+import Product from "./Pages/Product/Product";
 
 
 const App = () => {
