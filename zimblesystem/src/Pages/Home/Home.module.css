@@ -115,6 +115,8 @@
   text-align: center;
 }
 .box {
+  display: flex;
+  flex-direction: column;
   height: 320px;
   width: 400px;
   background-color: #003088;
@@ -124,13 +126,14 @@
 .image {
   height: 100px;
   width: 100px;
+  margin: auto;
 }
 .title {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
 .content {
-  padding: 20px 0 0 0;
+  /* padding: 10px 0 0 0; */
   margin: auto;
   width: 90%;
   font-size: 15px;
