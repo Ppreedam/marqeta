@@ -128,7 +128,7 @@
 .techStack {
   height: max-content;
   width: 100%;
-  padding: 50px 50px 100px 50px;
+  padding: 50px 50px 0 50px;
   display: flex;
 }
 .techStackLeft {
@@ -170,9 +170,6 @@
   margin-left: -120px;
 }
 
-.first_part{
-    margin-top: 80px;
-}
 .title {
     display: flex;
     align-items: center;
