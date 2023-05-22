@@ -3,7 +3,14 @@ import style from './Product.module.css'
 
 const Product = () => {
   return (
-    <div>Product</div>
+    <div>
+      {/* shankar part */}
+      <div></div>
+      {/* rabi part */}
+      <div></div>
+      {/* vishal part */}
+      <div></div>
+    </div>
   )
 }
 
