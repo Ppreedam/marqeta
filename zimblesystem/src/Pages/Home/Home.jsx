@@ -87,7 +87,7 @@ const Home = () => {
           </h3>
           <button className={style.letstalk}>Let's talk</button>
         </div>
-        {/* <div className={style.bannerImage}>
+        <div className={style.bannerImage}>
           <Parallax
             x={[400, 0]}
             y={[-900, 0]}
@@ -98,7 +98,7 @@ const Home = () => {
           >
             <img className={style.cardImage} src={card} alt="card" />
           </Parallax>
-        </div> */}
+        </div>
       </div>
       <div className={style.missionStatementContainer}>
         <h1 className={style.MissionStatement}>Misson Statement</h1>
