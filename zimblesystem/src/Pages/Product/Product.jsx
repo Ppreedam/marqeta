@@ -2,6 +2,10 @@ import React from "react";
 import style from "./Product.module.css";
 import card from "../Home/card3.png";
 import differentiator from "./differentiator.png";
+import banner from "./banner.jpg";
+import credit from "./credit.png"
+import debit from "./debit.png"
+import custom from "./custom.png"
 
 const Product = () => {
   const differentiators = [
@@ -160,7 +164,80 @@ const Product = () => {
         </div>
       </div>
       {/* vishal par}t */}
-      <div></div>
+      <div className={style.our_solution}>
+        <div className={style.first_part}>
+          <h3 className={style.title}>
+            <hr className={style.custom_hr} />
+            <span> Our Solution</span>
+          </h3>
+          <div className={style.box}>
+            <div>
+              <h1 style={{color:"blue"}}>Innovate.</h1>
+              <h1 style={{color:"blue"}}>Run.</h1>
+              <h1 style={{color:"orange"}}>Expand.</h1>
+            </div>
+            <div>
+              <img src={credit} alt="" />
+              <p>End-to-end</p>
+              <p>processing</p>
+              <p>| Credit Solution</p>
+            </div>
+            <div>
+              <img src={debit} alt="" />
+              <p>Full Package</p>
+              <p>Implementation</p>
+              <p>| Debit Solution</p>
+            </div>
+            <div>
+              <img src={custom} alt="" />
+              <p>Custom </p>
+              <p>Development</p>
+              <p>| Prepaid Solution</p>
+            </div>
+             
+          </div>
+        </div>
+        <div className={style.second_part}>
+          <div className={style.banner}>
+          <img src={banner} alt="Snow" />
+           
+           <div class={style.centered}>
+            <h3 style={{color:"gray"}}>Blogs</h3>
+            <br />
+            <h2>How The Fronted Interface Between Customers And Their Cards Is Changing</h2>
+            <br />
+            <p>The way we pay is changing even as you read this. The card platforms that were built on proprietary, monolithic infrastructure are now using open-source technologies and payments-as-a-service to provide a personalized experience to card users. Platforms have become more flexible and modular. Advance</p>
+           <h2 style={{color:"orange" ,marginTop:"30px"}}>Read More</h2>
+           </div>
+           </div>
+          <div className={style.Sub_main}>
+          <div className={style.sub_box1}>
+          <h3 className={style.title}>
+            <hr className={style.custom_hr2} />
+            <span> Our Solution</span>
+          </h3 >
+          <h1 style={{color:"blue" ,fontSize:"30px" }}>Popular <span style={{color:"orange"}}>Reads.</span></h1>
+          <p style={{fontSize:"16px"}}>| View All</p>
+          </div>
+          <div className={style.sub_box2}>
+            <div>
+              <p>Blog</p>
+              <h3>
+              Looking at Payment as a Service–what is it and does it matter?
+              </h3>
+              <h3 style={{color:"orange"}}>Read More</h3>
+            </div>
+            <div>
+              <p>Blog</p>
+              <h3>
+              Looking at Payment as a Service–what is it and does it matter?
+              </h3>
+              <h3 style={{color:"orange"}}>Read More</h3>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
