@@ -242,15 +242,6 @@ const Platform = () => {
           </div>
         </div>
       </div>
-      <div className={style.zimblesystem_difference_box}>
-          <div>
-            <p>What makes ZymbleSystem different?</p>
-            <p>The Zymbelsystem platform lets you develop and launch innovative, global, and trusted payment solutions at unprecedented speed.</p>
-          </div>
-          <div>
-            
-          </div>
-      </div>
     </div>
   )
 }
