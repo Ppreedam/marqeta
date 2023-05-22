@@ -9,7 +9,9 @@ const Product = () => {
       {/* rabi part */}
       <div></div>
       {/* vishal part */}
-      <div></div>
+      <div>
+        
+      </div>
     </div>
   )
 }
