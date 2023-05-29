@@ -470,14 +470,12 @@
   flex-wrap: wrap;
   justify-content: center;
   justify-items: center
-  /* display: grid;
-  grid-template-columns: repeat(5,1fr);
-  row-gap: 90px;
-  justify-content: space-around;
-  justify-items: center; */
-  /* margin-top: 45px; */
+}.card_management_secondbox>div{
+  width: 200px;
+  text-align: center;
 }
 .card_management_secondbox>div>div{
+  margin: auto;
   height: 100px;
   width: 100px;
   border: 5px solid #a9a7a7;

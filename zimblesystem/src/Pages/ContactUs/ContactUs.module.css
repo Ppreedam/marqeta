@@ -1,394 +1,495 @@
-.parallax {
-    /* The image used */
-    background-image: url("https://dge4uaysoh8oy.cloudfront.net/lp/creatopy/645/images/1648477630913_ctaa.png");
-  
-    /* Set a specific height */
-    min-height: 200px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.ContactUs {
+  height: 700px;
+  width: 98%;
+  display: flex;
+  /* margin: auto; */
+  gap: 100px;
+  position: relative;
+  padding: 100px 0 0 400px;
+  border: 1px solid red;
+}
+.container {
+  display: flex;
+  gap: 50px;
+  margin:auto
+}
+.ContactUs h2 {
+  font-family: "poppins", sans-serif;
+}
+.ContactUs_contact {
+  width: 30vw;
+  margin-top: 50px;
+  margin-left: -800px;
+}
+.ContactUs_mobile {
+  display: flex;
+  gap: 20px;
+  border-radius: 15px;
+  padding: 20px;
+  border-bottom: 12px solid #003088;
+  border-left: 12px solid #003088;
+  border-right: 12px solid #003088;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.content {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  /* font-size: 15; */
+}
+.contactDetails {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.ContactUs_mobileIcon {
+  color: #300767;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+}
+.ContactUs_mail {
+  display: flex;
+  gap: 20px;
+  border-radius: 15px;
+  padding: 20px;
+  border-bottom: 12px solid #003088;
+  border-left: 12px solid #003088;
+  border-right: 12px solid #003088;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 40px;
+}
+.ContactUs_mailIcon {
+  color: #300767;
+  height: 40px;
+  width: 40px;
+}
+.ContactUs_address {
+  display: flex;
+  gap: 20px;
+  border-radius: 15px;
+  padding: 20px;
+  border-bottom: 12px solid #003088;
+  border-left: 12px solid #003088;
+  border-right: 12px solid #003088;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 40px;
+}
+.ContactUs_addressIcon {
+  color: #300767;
+  height: 40px;
+  width: 40px;
+}
+.ContactUs_form {
+  width: 50vw;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.ContactUs_input {
+  height: 15px;
+  width: 90%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+::placeholder {
+  color: black;
+  /* font-family: ; */
+  font-size: 15px;
+  margin-left: 30px;
+  opacity: 0.5;
+  align-items: center;
+}
+.ContactUs_textArea {
+  height: 150px;
+  padding: 10px 0 0 20px;
+  width: 90%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+textarea:-ms-input-placeholder {
+  color: black;
+  font-size: 15px;
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.ContactUs_submit {
+  /* margin: auto; */
+  height: 45px;
+  width: 90%;
+  align-items: center;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  background-color: #003088;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.ContactUs_submitBtn {
+  font-size: 30px;
+}
+.ContactUs_submit p {
+  margin-top: 0px;
+  font-size: 30px;
+}
+.PhoneInput {
+  width: 90%;
+  border-radius: 10px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid #300767;
+  padding: 0 0 0 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.PhoneInput > input {
+  border: none;
+  outline: none;
+}
+.PhoneInputInput {
+  border: none;
+}
+.homeBtn {
+  position: absolute;
+  top: 600px;
+  right: 30px;
+}
+.react-phone-number-input {
+  border: none;
+}
+
+@media (min-width: 721px) and (max-width: 1023px) {
+  .ContactUs {
+    height: max-content;
+    width: 100%;
+    /* display: flex; */
+    padding: 100px 0 0 400px;
+    margin: auto;
+    margin-top: -15px;
+    gap: 100px;
+    padding: 50px;
   }
-  @media (min-width: 1024px) {
-    .ContactUs {
-      height: 700px;
-      width: 98%;
-      display: flex;
-      margin: auto;
-      margin-top: 55px;
-      gap: 100px;
-      position: relative;
+  .textWrapper {
+    margin-left: -350px;
+    display: flex;
+    gap: 50px;
+    background: rgb(232, 229, 229);
+  }
+  .name {
+    text-decoration: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    white-space: nowrap;
+    padding: 0.6rem;
+    letter-spacing: 1px;
+    animation: move-rtl 6000ms linear infinite;
+  }
+  @keyframes move-rtl {
+    0% {
+      transform: translateX(0);
     }
-    .textWrapper{
-      /* border-bottom: 1px solid black; */
-      /* border: 10px solid red; */
-      width: 100vw;
-      margin-left: -700px;
-      height: max-content;
-      display: flex;
-      gap: 50px;
-      /* justify-content: flex-end; */
-      background: rgb(232, 229, 229);
-      /* overflow: hidden; */
-      transform: rotate(-90deg);
-      -webkit-transform: rotate(270deg);
-      -moz-transform: rotate(-90deg);
-    }
-    .name{
-      font-size: 48px;
-      text-transform: uppercase;
-      color: transparent;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: black;
-      /* text-stroke-color:#fff; */
-      white-space: nowrap;
-      padding: 0.6rem;
-      letter-spacing: 1px;
-      animation: move-rtl 10000ms linear infinite;
-    }
-    @keyframes move-rtl{
-      0%{
-          transform: translateX(0);
-      }
-      100%{
-          transform: translateX(-300%);
-      }
-    }
-    .container{
-      display: flex;
-      gap: 50px;
-      margin-left: 50px;
-    }
-    .ContactUs h2 {
-      font-family: "poppins", sans-serif;
-    }
-    .ContactUs_contact {
-      width: 30vw;
-      margin-top: 50px;
-      margin-left: -800px;
-    }
-    .ContactUs_mobile {
-      display: flex;
-      gap: 20px;
-      border-radius: 15px;
-      padding: 20px;
-      border-bottom: 12px solid #003088;
-      border-left: 12px solid #003088;
-      border-right: 12px solid #003088;
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    .content {
-      font-size: 15px;
-      font-family: "Poppins", sans-serif;
-      /* font-size: 15; */
-    }
-    .contactDetails {
-      font-family: "Poppins", sans-serif;
-      font-size: 15px;
-    }
-    .ContactUs_mobileIcon {
-      color: #300767;
-      height: 40px;
-      width: 40px;
-      margin-top: 20px;
-    }
-    .ContactUs_mail {
-      display: flex;
-      gap:20px;
-      border-radius: 15px;
-      padding: 20px;
-      border-bottom: 12px solid #003088;
-      border-left: 12px solid #003088;
-      border-right: 12px solid #003088;
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      margin-top: 40px;
-    }
-    .ContactUs_mailIcon {
-      color: #300767;
-      height: 40px;
-      width: 40px;
-    }
-    .ContactUs_address {
-      display: flex;
-      gap:20px;
-      border-radius: 15px;
-      padding: 20px;
-      border-bottom: 12px solid #003088;
-      border-left: 12px solid #003088;
-      border-right: 12px solid #003088;
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      margin-top: 40px;
-    }
-    .ContactUs_addressIcon {
-      color: #300767;
-      height: 40px;
-      width: 40px;
-    }
-    .ContactUs_form {
-      
-      width: 50vw;
-      margin-top: 100px;
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-    }
-    .ContactUs_input {
-      height: 15px;
-      width: 90%;
-      border: none;
-      outline: none;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    }
-  
-    ::placeholder {
-      color: black;
-      /* font-family: ; */
-      font-size: 15px;
-      margin-left: 30px;
-      opacity: 0.5;
-      align-items: center;
-    }
-    .ContactUs_textArea {
-      height: 150px;
-      padding: 10px 0 0 20px;
-      width: 90%;
-      border: none;
-      outline: none;
-      border-radius: 10px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    }
-    textarea:-ms-input-placeholder {
-      color: black;
-      font-size: 15px;
-      margin-left: 30px;
-      padding: 20px;
-    }
-  
-    .ContactUs_submit {
-      /* margin: auto; */
-      height: 45px;
-      width: 90%;
-      align-items: center;
-      color: white;
-      border: none;
-      border-radius: 25px;
-      background-color: #003088;
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-    }
-    .ContactUs_submitBtn {
-      font-size: 30px;
-    }
-    .ContactUs_submit p {
-      margin-top: 0px;
-      font-size: 30px;
-    }
-    .PhoneInput {
-      width: 90%;
-      border-radius: 10px;
-      height: 40px;
-      background-color: white;
-      border: 1px solid #300767;
-      padding: 0 0 0 20px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    }
-    .PhoneInput > input {
-      border: none;
-      outline: none;
-    }
-    .PhoneInputInput {
-      border: none;
-    }
-    .homeBtn {
-      position: absolute;
-      top: 600px;
-      right: 30px;
-    }
-    .react-phone-number-input {
-      border: none;
+    100% {
+      transform: translateX(-100%);
     }
   }
-  
-  @media (min-width: 721px) and (max-width: 1023px) {
-    .ContactUs {
-      height: max-content;
-      width: 100%;
-      /* display: flex; */
-  
-      margin: auto;
-      margin-top: -15px;
-      gap: 100px;
-      padding: 50px;
-    }
-    .textWrapper{
-      margin-left: -350px;
-      display: flex;
-      gap : 50px;
-      background: rgb(232, 229, 229);
-    }
-    .name{
-      text-decoration: none;
-      font-size: 40px;
-      text-transform: uppercase;
-      color: transparent;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: black;
-      white-space: nowrap;
-      padding: 0.6rem;
-      letter-spacing: 1px;
-      animation: move-rtl 6000ms linear infinite;
-    }
-    @keyframes move-rtl{
-      0%{
-          transform: translateX(0);
-      }
-      100%{
-          transform: translateX(-100%);
-      }
-    }
-    .container{
-      display: flex;
-      gap: 50px;
-      margin-top: 50px;
-    }
-    .ContactUs h2 {
-      font-family: "poppins", sans-serif;
-      font-size: 60px;
-    }
-    .ContactUs_contact {
-      width: 50%;
-    }
-    .ContactUs_mobile {
-      display: flex;
-      gap: 20px;
-      border-radius: 15px;
-      padding: 20px;
-      border-bottom: 12px solid #003088;
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    .content {
-      font-size: 30px;
-    }
-    .ContactUs_mobileIcon {
-      color: #9f88fc;
-      height: 100px;
-      width: 100px;
-    }
-    .ContactUs_mail {
-      border-radius: 15px;
-      padding: 20px;
-      display: flex;
-      gap: 20px;
-      border-bottom: 12px solid #fe6989;
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      margin-top: 40px;
-    }
-    .ContactUs_mailIcon {
-      color: #fe6989;
-      height: 100px;
-      width: 100px;
-    }
-    .ContactUs_address {
-      border-radius: 15px;
-      padding: 20px;
-      display: flex;
-      gap: 20px;
-      justify-content: space-evenly;
-      border-bottom: 12px solid #38d4be;
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      margin-top: 40px;
-    }
-    .ContactUs_addressIcon {
-      color: #38d4be;
-      height: 100px;
-      width: 100px;
-    }
-    .ContactUs_form {
-      width: 50%;
-      margin-top: 50px;
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-    }
-    .ContactUs_input {
-      height: 100px;
-      width: 90%;
-      border: none;
-      outline: none;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    }
-  
-    ::placeholder {
-      color: black;
-      /* font-family: ; */
-      font-size: 35px;
-      margin-left: 30px;
-      opacity: 0.5;
-      align-items: center;
-    }
-    .ContactUs_textArea {
-      height: 200px;
-      width: 90%;
-      border: none;
-      outline: none;
-      border-radius: 10px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    }
-    textarea:-ms-input-placeholder {
-      color: black;
-      font-size: 50px;
-      margin-left: 30px;
-      padding: 20px;
-    }
-  
-    .ContactUs_submit {
-      /* margin: auto; */
-      font-size: 50px;
-      height: 100px;
-      width: 90%;
-      align-items: center;
-      color: white;
-      border: none;
-      border-radius: 25px;
-      background-color: #003088;
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-    }
-    .ContactUs_submitBtn {
-      font-size: 50px;
-    }
-    .PhoneInput {
-      width: 90%;
-      border-radius: 10px;
-      height: 90px;
-      background-color: white;
-      border: 1px solid red;
-      padding: 0 0 0 20px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    }
-    .PhoneInput > input {
-      border: none;
-      outline: none;
-    }
-   .homeBtn{
+  .container {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .ContactUs h2 {
+    font-family: "poppins", sans-serif;
+    font-size: 60px;
+  }
+  .ContactUs_contact {
+    width: 50%;
+  }
+  .ContactUs_mobile {
+    display: flex;
+    gap: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    border-bottom: 12px solid #003088;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .content {
+    font-size: 30px;
+  }
+  .ContactUs_mobileIcon {
+    color: #9f88fc;
+    height: 100px;
+    width: 100px;
+  }
+  .ContactUs_mail {
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    border-bottom: 12px solid #fe6989;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 40px;
+  }
+  .ContactUs_mailIcon {
+    color: #fe6989;
+    height: 100px;
+    width: 100px;
+  }
+  .ContactUs_address {
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    border-bottom: 12px solid #38d4be;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 40px;
+  }
+  .ContactUs_addressIcon {
+    color: #38d4be;
+    height: 100px;
+    width: 100px;
+  }
+  .ContactUs_form {
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .ContactUs_input {
+    height: 50px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  ::placeholder {
+    color: black;
+    /* font-family: ; */
+    font-size: 35px;
+    margin-left: 30px;
+    opacity: 0.5;
+    align-items: center;
+  }
+  .ContactUs_textArea {
+    height: 200px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  textarea:-ms-input-placeholder {
+    color: black;
+    font-size: 10px;
+    margin-left: 30px;
+    padding: 20px;
+  }
+
+  .ContactUs_submit {
+    /* margin: auto; */
+    font-size: 50px;
+    height: 100px;
+    width: 90%;
+    align-items: center;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background-color: #003088;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .ContactUs_submit > p {
+    font-size: 20px;
+  }
+  .ContactUs_submitBtn {
+    font-size: 50px;
+  }
+  .PhoneInput {
+    width: 90%;
+    border-radius: 10px;
+    height: 90px;
+    background-color: white;
+    border: 1px solid red;
+    padding: 0 0 0 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .PhoneInput > input {
+    border: none;
+    outline: none;
+  }
+  .homeBtn {
     display: flex;
     justify-content: right;
     margin-top: 50px;
     margin-right: 50px;
-   }
   }
-  
+}
+@media (min-width: 320px) and (max-width: 720px) {
+  .ContactUs {
+    height: max-content;
+    width: 20%;
+    margin-top: -15px;
+    gap: 100px;
+    /* padding: 50px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .ContactUs h2 {
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    border: 1px solid green;
+    z-index: 1;
+  }
+  .ContactUs_contact {
+    margin-left: 00px;
+    width: 10%;
+  }
+  .ContactUs_mobile {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    border-radius: 15px;
+    /* padding: 20px; */
+    border-bottom: 12px solid #003088;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .content {
+    font-size: 30px;
+  }
+  .ContactUs_mobileIcon {
+    color: #9f88fc;
+    height: 100px;
+    width: 100px;
+  }
+  .ContactUs_mail {
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    border-bottom: 12px solid #fe6989;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 40px;
+  }
+  .ContactUs_mailIcon {
+    color: #fe6989;
+    height: 100px;
+    width: 100px;
+  }
+  .ContactUs_address {
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    border-bottom: 12px solid #38d4be;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 40px;
+  }
+  .ContactUs_addressIcon {
+    color: #38d4be;
+    height: 100px;
+    width: 100px;
+  }
+  .ContactUs_form {
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .ContactUs_input {
+    height: 50px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  ::placeholder {
+    color: black;
+    /* font-family: ; */
+    font-size: 35px;
+    margin-left: 30px;
+    opacity: 0.5;
+    align-items: center;
+  }
+  .ContactUs_textArea {
+    height: 200px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  textarea:-ms-input-placeholder {
+    color: black;
+    font-size: 10px;
+    margin-left: 30px;
+    padding: 20px;
+  }
+
+  .ContactUs_submit {
+    /* margin: auto; */
+    font-size: 50px;
+    height: 100px;
+    width: 90%;
+    align-items: center;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background-color: #003088;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .ContactUs_submit > p {
+    font-size: 20px;
+  }
+  .ContactUs_submitBtn {
+    font-size: 50px;
+  }
+  .PhoneInput {
+    width: 90%;
+    border-radius: 10px;
+    height: 90px;
+    background-color: white;
+    border: 1px solid red;
+    padding: 0 0 0 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .PhoneInput > input {
+    border: none;
+    outline: none;
+  }
+  .homeBtn {
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+}
