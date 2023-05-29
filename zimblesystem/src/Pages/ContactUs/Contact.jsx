@@ -1,15 +1,14 @@
 // imported all the required components and external library
 import React, { useEffect, useRef, useState } from "react";
-import Style from "./ContactUs.module.css";
+import Style from "./Contact.module.css";
 import { FaAddressCard, FaMobileAlt, FaTelegramPlane } from "react-icons/fa";
 import { IoIosMailOpen } from "react-icons/io";
 import emailjs from "@emailjs/browser";
 import PhoneInput from "react-phone-number-input";
 import Tilt from "react-parallax-tilt";
-// import ArrowButton from "../../Components/ArrowButton/ArrowButton";
 
 /* Contact Us Page */
-const ContactUs2 = () => {
+const ContactUs = () => {
   // state to store the country code
   const [countryCode, setCountryCode] = useState();
   // useEffect(() => {
@@ -19,26 +18,26 @@ const ContactUs2 = () => {
   const form = useRef();
 
   /* This funcion is used to send the mail with the help of EmailJs */
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-  //   emailjs
-  //     .sendForm(
-  //       // "service_pqnlkqn",
-  //       // "template_i7d9vvq",
-  //       form.current,
-  //       // "g88TS7f-p9tbpIj0o"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         // console.log(result.text);
-  //         // console.log("message sent");
-  //         alert("Message Sent")
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  // };
+//   const sendEmail = (e) => {
+//     e.preventDefault();
+//     emailjs
+//       .sendForm(
+//         "service_pqnlkqn",
+//         "template_i7d9vvq",
+//         form.current,
+//         "g88TS7f-p9tbpIj0o"
+//       )
+//       .then(
+//         (result) => {
+//           // console.log(result.text);
+//           // console.log("message sent");
+//           alert("Message Sent")
+//         },
+//         (error) => {
+//           console.log(error.text);
+//         }
+//       );
+//   };
   return (
     // main container of this page
     <div className={Style.ContactUs}>
@@ -86,7 +85,7 @@ const ContactUs2 = () => {
         </Tilt>
       </div>
       {/* form where taking input from user */}
-      <div>
+      <div className={Style.form}>
         <form ref={form} className={Style.ContactUs_form}>
           <input
             className={Style.ContactUs_input}
@@ -128,4 +127,4 @@ const ContactUs2 = () => {
   );
 };
 
-export default ContactUs2;
+export default ContactUs;
