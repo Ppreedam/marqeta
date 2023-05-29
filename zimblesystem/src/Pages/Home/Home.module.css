@@ -19,7 +19,6 @@
   padding: 150px 0 50px 0;
   height: 100%;
   width: 50%;
-  margin-left: -400px;
 }
 .header1 {
   color: #165c8e;
@@ -53,18 +52,14 @@
 }
 .bannerImage {
   padding: 70px 0 0 0;
-  position: fixed;
   height: 400px;
   width: 400px;
-  margin-left: 700px;
   z-index: 1;
 }
 .cardImage {
   height: 500px;
   width: 500px;
   transform: scalex(-1);
-  /* margin-left: -3010px; */
-  /* position: fixed; */
 }
 .box{
   height: 100vh;
@@ -452,4 +447,243 @@
   position: absolute;
   right: -16px;
   bottom: 445px;
+}
+
+
+/* card management */
+.card_management_mainbox{
+  background-color: #003088;
+  height: max-content;
+  margin-top: 60px;
+}
+.card_management_mainbox>p{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  padding-top: 40px;
+}
+.card_management_secondbox{
+  padding: 0 150px 50px 150px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center
+  /* display: grid;
+  grid-template-columns: repeat(5,1fr);
+  row-gap: 90px;
+  justify-content: space-around;
+  justify-items: center; */
+  /* margin-top: 45px; */
+}
+.card_management_secondbox>div>div{
+  height: 100px;
+  width: 100px;
+  border: 5px solid #a9a7a7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_management_secondbox>div>p{
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* forth section */
+.iconarrow{
+  width: 100px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #000;
+  position: relative;
+  /* top: 50px; */
+}
+.iconarrow:after{
+  content: "";
+  display: inline-block;
+  border-radius: 4px;
+  width: 40px;
+  height: 4px;
+  background-color: #000;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -6px;
+  bottom: 13px;
+}
+.iconarrow:before{
+  content: "";
+  display: inline-block;
+  border-radius: 4px;
+  width: 40px;
+  height: 4px;
+  background-color: #000;
+  transform: rotate(-45deg);
+  position: absolute;
+  right: -6px;
+  bottom: -13px;
+}
+.notification{
+  color: white;
+  font-size: 65px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+/* For the Tab View */
+@media screen and (max-width: 1024px) {
+  .container {
+    /* position: relative; */
+    margin: auto;
+    height: max-content;
+    width: 100%;
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    /* margin-left: 30px; */
+    /* border: 1px solid red; */
+  }
+  .bannerContent {
+    padding: 150px 0 50px 80px;
+    height: 100%;
+    width: 100%;
+   
+    /* margin-left: -400px; */
+    /* border: 1px solid black; */
+  }
+  .header1 {
+    color: #165c8e;
+    width: 50%;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+  }
+  .header2 {
+    margin-top: 10px;
+    color: #e0d567;
+    width: 50%;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+  }
+  .header3 {
+    color: #4a80a1;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+  }
+  .letstalk {
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 100px 10px 100px;
+    cursor: pointer;
+  }
+  .bannerImage {
+    padding: 0 0 0 50px;
+    /* position: fixed; */
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: auto;
+    /* height: 400px;
+    
+    width: 400px; */
+    /* margin-left: 700px; */
+    z-index: 1;
+  }
+  .cardImage {
+    height: 500px;
+    width: 500px;
+    transform: scalex(-1);
+    /* margin-left: -3010px; */
+    /* position: fixed; */
+  }
+ 
+}
+
+/* ------------------------------------------------------------------------------- */
+/* for mobile Screen  */
+@media screen and (max-width: 767px) {
+  .container {
+    /* position: relative; */
+    margin: auto;
+    height: max-content;
+    width: 100%;
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    /* margin-left: 30px; */
+    /* border: 1px solid red; */
+  }
+  .bannerContent {
+    padding: 150px 0 50px 0px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+   
+    /* margin-left: -400px; */
+    /* border: 1px solid black; */
+  }
+  .header1 {
+    color: #165c8e;
+    width: 50%;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    padding: 0 0 0 20px;
+  }
+  .header2 {
+    margin-top: 10px;
+    color: #e0d567;
+    width: 50%;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    padding: 0 0 0 20px;
+  }
+  .header3 {
+    color: #4a80a1;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    padding: 0 0 0 20px;
+  }
+  .letstalk {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+  }
+  .bannerImage {
+    /* padding: 0 0 0 50px; */
+    /* position: fixed; */
+    /* border: 1px solid black; */
+    width: 80%;
+    /* margin: auto; */
+    /* /* height: 400px; */
+    
+    height: 300px;
+    /* margin-left: 700px; */
+    /* z-index: 1; */
+  }
+  .cardImage {
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid red; */
+    /* transform: scalex(-1); */
+    /* margin-left: -3010px; */
+    /* position: fixed; */
+  }
 }
