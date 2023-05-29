@@ -31,3 +31,97 @@
     justify-content: space-between; 
      /* border: 1px solid red; */
 }
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ForTab View */
+@media screen and (max-width: 1024px) {
+    .footer_mainbox{
+        background-color: #003088;
+        /* height: 700px; */
+        margin-top: 2px;
+        
+        
+    }
+    .footer_mainbox1{
+         /* display: flex;
+        justify-content: space-around; */
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+        /* margin: auto; */
+        /* border: 1px solid red; */
+
+    }
+    .footer_mainbox1>div{
+        margin-top: 20px;
+        /* border: 1px solid black; */
+        width: 100%;
+        /* margin-top: -10px; */
+       text-align: center;
+    }
+    .footer_mainbox>div>div>p{
+        
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .hr_line{
+        margin-top: 40px;
+        width: 90%;
+        margin: auto;
+    }
+    .footer_sencond_box{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between; 
+         /* border: 1px solid red; */
+    }
+
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* For the Mobile View */
+@media screen and (max-width: 767px) {
+    .footer_mainbox{
+        background-color: #003088;
+        /* height: 700px; */
+        margin-top: 2px;
+        
+        
+    }
+    .footer_mainbox1{
+         /* display: flex;
+        justify-content: space-around; */
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 20px;
+        /* margin: auto; */
+        /* border: 1px solid red; */
+
+    }
+    .footer_mainbox1>div{
+        margin-top: 20px;
+        /* border: 1px solid black; */
+        width: 100%;
+        /* margin-top: -10px; */
+       text-align: center;
+    }
+    .footer_mainbox>div>div>p{
+        
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .hr_line{
+        margin-top: 40px;
+        width: 90%;
+        margin: auto;
+    }
+    .footer_sencond_box{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between; 
+         /* border: 1px solid red; */
+    }
+}
